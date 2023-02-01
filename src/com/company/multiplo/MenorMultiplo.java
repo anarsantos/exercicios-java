@@ -13,12 +13,12 @@ public class MenorMultiplo {
         System.out.print("Digite um valor: ");
         int numero = scanner.nextInt();
 
-        int minumoMultiplo = 0;
+        int minimoMultiplo = 0;
         if (numero % 2 == 0) {
-            minumoMultiplo = numero;
+            minimoMultiplo = numero;
         } else {
-            minumoMultiplo = numero * 2;
+            minimoMultiplo = numero * 2;
         }
-        System.out.println("O resultado eh: " + minumoMultiplo);
+        System.out.println("O resultado eh: " + minimoMultiplo);
     }
 }
