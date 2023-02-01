@@ -10,7 +10,15 @@ public class MenorMultiplo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Digite um valor: ");
+        int numero = scanner.nextInt();
 
-
+        int minumoMultiplo = 0;
+        if (numero % 2 == 0) {
+            minumoMultiplo = numero;
+        } else {
+            minumoMultiplo = numero * 2;
+        }
+        System.out.println("O resultado eh: " + minumoMultiplo);
     }
 }
